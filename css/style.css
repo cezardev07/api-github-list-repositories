@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    position: relative;
+    background: #0d1117;
+    color: rgb(139, 148, 158);
+}
+.header{
+    max-width: 800px;
+    padding: 10px 0;
+    border-bottom:solid 1px #21262d;
+}
+.header input{
+    padding: 6px 10px;
+    font-size: 15px;
+    width: 75%;
+    background: transparent;
+    border:solid 1px #21262d;
+    color: rgb(139, 148, 158);
+    border-radius: 5px;
+}
+.header input::placeholder{
+    color: rgb(161, 166, 173);
+}
+.header input:focus{
+    outline:solid 2px #58a6ff;
+}
+.repositories{
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 70px;
+}
+.repositories section .repo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom: solid 1px #21262d;
+    padding: 20px 0;
+    animation: op 2s ease;
+}
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title .link-title{
+    font-size: 20px;
+    color: #58a6ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.title .link-title:hover{
+    text-decoration: underline;
+}
+.title .repo-visibility{
+    text-transform: capitalize;
+    font-size: 12px;
+    border: solid 1.5px rgba(139, 148, 158, 0.457);
+    padding: 3px 7px;
+    border-radius: 20px;
+}
+p{
+    font-size: 14px;
+}
+.language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.language .circle-language{
+    width: 12px;
+    height: 12px;
+    background: #f1e05a;
+    border-radius: 50%;
+}
+.repositories .repositorio .closeRepositorio{
+    display: none;
+}
+@keyframes op {
+    0%{
+        opacity: -1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
