@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Você pode acessar o projeto através [DESSE LINK](https://cezardev07.github.io/api-github-list-repositories/g)
+Você pode acessar o projeto através [DESSE LINK](https://cezardev07.github.io/api-github-list-repositories/)
 ♥
 <a href="https://cezardev07.github.io/api-github-list-repositories/" align="center">
   <img src="https://github.com/cezardev07/api-github-list-repositories/blob/main/assets/repoReadme.png?raw=true" width="100%">
