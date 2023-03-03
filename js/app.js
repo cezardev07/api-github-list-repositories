@@ -137,50 +137,50 @@ function rep(){
 
 const pinnedFixed = async function(){
     const data = await get()
-    console.log(data)
+
     overviewRepo.innerHTML = `
     <h2 class="overview-title-pinned">Pinned</h2>
 
     <div class="overview-repo">
         <div class="title">
-            <a href="${urlRepo + data[8].name}" target="_blank" rel="noopener noreferrer"class="link-title">
-                ${data[8].name}
+            <a href="${urlRepo + data[9].name}" target="_blank" rel="noopener noreferrer"class="link-title">
+                ${data[9].name}
             </a>
             <span class="repo-visibility">
-                ${data[8].visibility}
+                ${data[9].visibility}
             </span>
         </div>
         <div class="description">
             <p>
-                 ${data[8].description}
+                 ${data[9].description}
             </p>
         </div>
         <div class="language">
             <div class="overview-circle-language"></div>
             <p> 
-              ${data[8].language}
+              ${data[9].language}
             </p>
         </div>
     </div>
 
     <div class="overview-repo">
         <div class="title">
-            <a href="${urlRepo + data[6].name}" target="_blank" rel="noopener noreferrer"class="link-title">
-                ${data[6].name}
+            <a href="${urlRepo + data[7].name}" target="_blank" rel="noopener noreferrer"class="link-title">
+                ${data[7].name}
             </a>
             <span class="repo-visibility">
-                ${data[6].visibility}
+                ${data[7].visibility}
             </span>
         </div>
         <div class="description">
             <p>
-                 ${data[6].description}
+                 ${data[7].description}
             </p>
         </div>
         <div class="language">
             <div class="overview-circle-language"></div>
             <p> 
-              ${data[6].language}
+              ${data[7].language}
             </p>
         </div>
     </div>
@@ -188,22 +188,22 @@ const pinnedFixed = async function(){
 
     <div class="overview-repo">
         <div class="title">
-            <a href="${urlRepo + data[12].name}" target="_blank" rel="noopener noreferrer"class="link-title">
-                ${data[12].name}
+            <a href="${urlRepo + data[0].name}" target="_blank" rel="noopener noreferrer"class="link-title">
+                ${data[0].name}
             </a>
             <span class="repo-visibility">
-                ${data[12].visibility}
+                ${data[0].visibility}
             </span>
         </div>
         <div class="description">
             <p>
-                 ${data[12].description}
+                 ${data[0].description}
             </p>
         </div>
         <div class="language">
             <div class="overview-circle-language"></div>
             <p> 
-              ${data[12].language}
+              ${data[0].language}
             </p>
         </div>
     </div>
@@ -211,22 +211,22 @@ const pinnedFixed = async function(){
     
     <div class="overview-repo">
         <div class="title">
-            <a href="${urlRepo + data[14].name}" target="_blank" rel="noopener noreferrer"class="link-title">
-                ${data[14].name}
+            <a href="${urlRepo + data[15].name}" target="_blank" rel="noopener noreferrer"class="link-title">
+                ${data[15].name}
             </a>
             <span class="repo-visibility">
-                ${data[14].visibility}
+                ${data[15].visibility}
             </span>
         </div>
         <div class="description">
             <p>
-                 ${data[14].description}
+                 ${data[15].description}
             </p>
         </div>
         <div class="language">
             <div class="overview-circle-language"></div>
             <p> 
-              ${data[14].language}
+              ${data[15].language}
             </p>
         </div>
     </div>
